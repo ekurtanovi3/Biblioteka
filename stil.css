@@ -50,6 +50,30 @@ font-family : Montserrat;
 text-decoration : underline;
 }
 
+
+.wrapper{
+    position: absolute;
+	margin : 25px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+.circle{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    display: block;
+    box-shadow: 0px 1px 0.5px #32AAEE;
+    cursor: pointer;
+}
+#text{
+    font: Arial;
+    font-size: 17px;
+    color: white;    
+}
+
+
 .okvir2{
 background : #00264d;
 width : 95%;
