@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Dosis);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 body {
 background : white;
@@ -17,6 +18,9 @@ background : #e6f2ff;
 background : #00264d;
 height : 70px;
 }  
+
+
+
 
 .wrapper{
      position: absolute;
@@ -107,6 +111,14 @@ float : right;
 float: left;
 }
 
+.vrijemeobjave{
+	font-family : Roboto;
+	font-style : bold;
+	float : left;
+}
+.datum {
+	display: none;
+}
 #novosti {
 float: right;
 width : 80%;

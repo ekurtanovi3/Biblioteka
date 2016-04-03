@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Kontakt</title>
 <link rel="stylesheet" type="text/css" href="stil.css">
+<SCRIPT src="validacija.js"></SCRIPT>
 </head>
 <body>
 <div id="okvir">
@@ -32,10 +33,10 @@
 <form name="input" action="http://zamger.etf.unsa.ba">
 <fieldset>
 <legend>Unesite sljedeće podatke</legend>
-<p><label > Ime i prezime: </label><input type="text" name="imeprezime"></p>
+<p><label > Ime i prezime: </label><input onchange = "validirajIme()" type="text" name="imeprezime"></p>
 <p><label > E-mail adresa: </label><input type="email" name="email"></p>
-<p><label > Broj telefona: </label><input type="tel" name="brojtelefona"></p>
-<p><label> Broj članske karte:</label><input type="number" name="brojclanske" min="1" max="9999"></p>
+<p><label > Broj telefona: </label><input  type="tel" name="brojtelefona"></p>
+<p><label> Broj članske karte:</label><input  type="number" name="brojclanske" min="1" max="9999"></p>
 <p><label> Polje za komentar:</label><textarea name="komentar">Unesite komentar</textarea></p>
 <input type="reset" value=Odustani class="dugme">
 <input type="submit" value=Potvrdi class="dugme">
