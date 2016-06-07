@@ -1,0 +1,11 @@
+Dio koji æe biti opisan nije uraðen na najbolji naèin, veæ na najjednostavniji koji može biti malo konfuzan, zato i 
+dodajem uputstvo. :)
+
+Pristupni podaci za administratora su admin admin. Nakon login-a, administratoru se prikazuje forma za dodavanje novosti.
+Na istoj formi nalazi se button za brisanje novosti i komentara pri èemu je potrebno prethodno unijeti ID novosti,
+odnosno komentara, kao i dugme koje omoguæuje odnosno onemoguæuje komentarisanje novosti što zahtijeva unos ID-a novosti.
+
+Administratoru se takoðe prikazuje forma za dodavanje korisnika, odnosno autora. Na ovoj formi nalazi se dugme za brisanje
+korisnika - potrebno je unijeti username korisnika kojeg administrator želi brisati. Ažuriranje korisnika se vrši tako
+što se unese username korisnika, a zatim se popune polja 'Novi username' i/ili 'Novi password' (moguæe je korisniku
+promijeniti samo username, samo password, ili oboje).  
